@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrays, DOM e Eventos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 640px;
+      margin: 40px auto;
+      padding: 0 16px;
+      color: #222;
+    }
+    #lista li {
+      cursor: pointer;
+      padding: 4px 0;
+      user-select: none;
+    }
+    .destaque {
+      color: #c0392b;
+      font-weight: bold;
+    }
+    .feito {
+      text-decoration: line-through;
+      color: #888;
+    }
+    form, .campo {
+      margin: 16px 0;
+    }
+    input, button {
+      padding: 6px 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="titulo">Título original</h1>
+
+  <p class="texto">Primeiro parágrafo do blog.</p>
+  <p class="texto">Segundo parágrafo do blog.</p>
+  <p class="texto">Terceiro parágrafo do blog.</p>
+
+  <div class="campo">
+    <button id="botao">Clique aqui</button>
+  </div>
+
+  <div class="campo">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+  </div>
+
+  <form id="formulario">
+    <input type="text" id="tarefa" placeholder="Nova tarefa">
+    <button type="submit">Adicionar</button>
+  </form>
+
+  <p><em>Clique em um item da lista para marcá-lo como feito.</em></p>
+  <ul id="lista">
+    <li>Item 1 (HTML)</li>
+    <li>Item 2 (HTML)</li>
+    <li>Item 3 (HTML)</li>
+  </ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
