@@ -80,17 +80,15 @@ console.log('O novo <li> tem a classe "destaque"?', novoItem.classList.contains(
 
 // 2.6 – Criar um <li> para cada tarefa
 const tarefas = ["Estudar JS", "Fazer exercícios", "Revisar DOM"];
-const itensTarefas = [];
 
 tarefas.forEach((tarefa) => {
   const li = document.createElement("li");
   li.textContent = tarefa;
   lista.append(li);
-  itensTarefas.push(li);
 });
 
-// Aplica a classe "feito" ao primeiro <li> de tarefa
-itensTarefas[0].classList.add("feito");
+// Aplica a classe "feito" ao primeiro <li> da lista
+lista.querySelector("li").classList.add("feito");
 
 console.log("Total de itens na lista:", lista.querySelectorAll("li").length);
 
