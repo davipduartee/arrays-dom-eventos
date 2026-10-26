@@ -1,0 +1,20 @@
+{
+  "app.js": {
+    "mtime": 1792117408.97186,
+    "seen": 1792117590.9344609,
+    "ast_hash": "41d7ef9989272526460770014357840f",
+    "semantic_hash": "41d7ef9989272526460770014357840f"
+  },
+  "README.md": {
+    "mtime": 1792117408.97186,
+    "seen": 1792117590.9344668,
+    "ast_hash": "e72d5c756b67b1ff40665c2cf8248ae0",
+    "semantic_hash": "e72d5c756b67b1ff40665c2cf8248ae0"
+  },
+  "index.html": {
+    "mtime": 1792117408.97186,
+    "seen": 1792117590.9344697,
+    "ast_hash": "d422f172b6407278c4c983b1ffb5358b",
+    "semantic_hash": "d422f172b6407278c4c983b1ffb5358b"
+  }
+}
